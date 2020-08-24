@@ -1,5 +1,16 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Description
+
+Job Advertisements Application is a simple app/website that downloads job advertisements from NAV's REST API and show them to the user. The ads are taken from NAV's website https://arbeidsplassen.nav.no/
+
+The app meet these criteria:
+1) The user can see 10 ads when the app is opened.
+2) Each add show Job publish date, ad title and employer organisation.
+3) By clciking on "Click me for more info" link, user can see rest of the details.
+4) Each ad has a "Save" button. Saved ads must be presented in a separate tab.
+5) Saved ads does not disappear even if the browser is closed and reopened.
+
 ## Available Scripts
 
 In the project directory, you can run:
