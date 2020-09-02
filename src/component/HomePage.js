@@ -139,8 +139,8 @@ class HomePage extends React.Component {
                         {user.employer.orgnr}
                       </div>
                     </div>
-                    <div className="job-save-button">
-                      {user.isSaved ? <button className="saved-button-text" disabled><span>Saved</span></button>
+                    <div>
+                      {user.isSaved ? <button className="saved-button" disabled><span>Saved</span></button>
                         : <button className="save-button" onClick={() => this.props.onSaveClick(user)}><span className="save-button-text">Save</span></button>
                       }
                     </div>
@@ -148,13 +148,13 @@ class HomePage extends React.Component {
                   <Card>
                     <Card.Header>
                       <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                        <label className="card-button">Click me for more info!</label>
+                        <label className="more-info-button">Click me for more info!</label>
                       </Accordion.Toggle>
                     </Card.Header>
                     <Accordion.Collapse eventKey="1">
                       <Card.Body>
-                        <div className="item-more-info">
-                          <div className="item-more-info-content">
+                        <div className="user-more-info">
+                          <div className="user-more-info-content">
                             <label><b>Description: </b></label>
                             <div dangerouslySetInnerHTML={CreateMarkup(user.description)} /><br/>
                             <label><b>Employer Description: </b></label>
