@@ -19,11 +19,11 @@
   color: blue;
 }
 
-.save-button-text {
+.save-button {
   font-weight: 500;
 }
 
-.saved-button-text {
+.saved-button {
   margin-top: 0px !important;
 }
 
@@ -35,11 +35,11 @@
   margin-top: 25px;
 }
 
-.item-more-info {
+.user-more-info {
   background-color: wheat;
 }
 
-.item-more-info-content {
+.user-more-info-content {
   padding: 42px;
 }
 
@@ -141,14 +141,14 @@ button:focus {
   float: right;
 }
 
-.card-button {
+.more-info-button {
   color: mediumblue;
   font-weight: 500;
   padding: 1.375rem 16.95rem !important;
   margin-top: 20px;
 }
 
-.card-button:hover {
+.more-info-button:hover {
   color: blue;
   cursor: pointer;
 }
