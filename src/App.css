@@ -149,7 +149,7 @@ button:focus {
 }
 
 .more-info-button:hover {
-  color: blue;
+  color: darkblue;
   cursor: pointer;
 }
 
